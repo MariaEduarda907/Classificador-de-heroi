@@ -1,0 +1,30 @@
+body{
+    background-color: darkorchid;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #000000b3;
+    box-shadow: 0 0 5px #000000;
+    margin: 100px auto;
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+  }
+
+  #btn-jogar {
+    padding: 10px 20px;
+    border: none;
+    background: #460472;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: #ffffff;
+  }
